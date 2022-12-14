@@ -1,0 +1,91 @@
+#header-main{
+    grid-row: 1;
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+
+
+#nav-main{
+    background-color: #ab2b23;
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row: 2;
+}
+
+
+#nav-main > a{
+    color: aliceblue;
+    font-size: 41px !important;
+    font-weight: 500 !important;
+}
+
+#nick-picture{
+    grid-row: 3;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+#main-content-1{
+    grid-row: 3;
+    grid-column-start: 2;
+    grid-column-end: 5;
+    display: flex;
+}
+
+#main-content-1 > p{
+    font-size: 43px;
+    font-weight: 500;
+}
+
+#main-content-2{
+    grid-row: 4;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+#main-content-2 > ol{
+    transform: translateX(25px);
+    font-size: 29px;
+    font-weight: 500;
+    line-height: 40px;
+    position: relative;
+    top: 60px;
+}
+
+#main-content-3{
+    grid-row: 4;
+    grid-column-start: 2;
+    grid-column-end: 5;
+}
+
+#main-content-3 > img{
+object-fit: cover;
+}
+
+#main-content-4{
+    grid-row: 5;
+    grid-column: 1/5;
+    border-bottom: 1px grey solid;
+}
+
+#main-content-4 > ul{
+    transform: translateX(20px);
+    line-height:24px;
+    margin-top: 32px;
+    margin-bottom: 17px;
+    
+}
+
+
+footer{
+    grid-row: 6;
+    grid-column: 1 / 5;
+}
+
+footer > p{
+ font-size: 20px !important;
+ color: #e94433;
+}
